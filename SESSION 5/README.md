@@ -119,8 +119,8 @@ The state file is a **JSON document** that stores:
 
 ## Official Links
 
-Terraform State: [https://developer.hashicorp.com/terraform/language/state](https://developer.hashicorp.com/terraform/language/state)
-Local vs Remote State: [https://developer.hashicorp.com/terraform/language/state/remote](https://developer.hashicorp.com/terraform/language/state/remote)
-State Locking: [https://developer.hashicorp.com/terraform/language/state/locking](https://developer.hashicorp.com/terraform/language/state/locking)
+- Terraform State: [https://developer.hashicorp.com/terraform/language/state](https://developer.hashicorp.com/terraform/language/state)
+- Local vs Remote State: [https://developer.hashicorp.com/terraform/language/state/remote](https://developer.hashicorp.com/terraform/language/state/remote)
+- State Locking: [https://developer.hashicorp.com/terraform/language/state/locking](https://developer.hashicorp.com/terraform/language/state/locking)
 
 ---
