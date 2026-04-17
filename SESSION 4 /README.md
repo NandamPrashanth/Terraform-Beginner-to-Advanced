@@ -161,11 +161,11 @@ output "instance_public_ip" {
 
 ## Official Links
 
-* [Terraform Input Variables](https://developer.hashicorp.com/terraform/docs/language/values/variables)
-* [Terraform Variable Types](https://developer.hashicorp.com/terraform/docs/language/values/variables#type-constraints)
-* [Terraform tfvars Files](https://developer.hashicorp.com/terraform/docs/language/values/variables#variable-definitions-tfvars-files)
-* [Terraform Environment Variables](https://developer.hashicorp.com/terraform/docs/cli/environment-variables)
-* [Terraform Outputs](https://developer.hashicorp.com/terraform/docs/language/values/outputs)
+* Terraform Input Variables: https://developer.hashicorp.com/terraform/language/values/variables
+* Terraform Variable Types and Defaults: https://developer.hashicorp.com/terraform/language/values/variables#type-constraints
+* Terraform .tfvars Files: https://developer.hashicorp.com/terraform/language/values/variables#variable-definitions-tfvars-files
+* Terraform Environment Variables: https://developer.hashicorp.com/terraform/cli/config/environment-variables
+* Terraform Outputs: https://developer.hashicorp.com/terraform/language/values/outputs
 
 ---
 
