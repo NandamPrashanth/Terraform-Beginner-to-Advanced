@@ -112,7 +112,7 @@ aws_instance.web: Provisioning complete
 
 ---
 
-## References## References
+## References
 
 - **null_resource**: [Terraform null_resource Documentation](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource)  
 - **Provisioners Overview**: [Terraform Provisioners Documentation](https://developer.hashicorp.com/terraform/language/provisioners)  
