@@ -53,6 +53,19 @@ provider "aws" {
 
 ---
 
+| Constraint             | Syntax Example  | Mathematical Symbol | Mathematical Meaning | Explanation                                                          |
+| ---------------------- | --------------- | ------------------- | -------------------- | -------------------------------------------------------------------- |
+| Exact Version          | `= 5.0.1`       | `=`                 | = 5.0.1              | Only this exact version is allowed. No upgrades.                     |
+| Greater Than           | `> 5.0`         | `>`                 | > 5.0                | Only versions strictly higher than 5.0. 5.0 is not included.         |
+| Greater Than or Equal  | `>= 5.0`        | `≥`                 | ≥ 5.0                | Version 5.0 and anything higher is allowed.                          |
+| Less Than              | `< 6.0`         | `<`                 | < 6.0                | Any version below 6.0 is allowed. 6.0 is excluded.                   |
+| Less Than or Equal     | `<= 5.2`        | `≤`                 | ≤ 5.2                | Versions up to 5.2 are allowed (including 5.2).                      |
+| Not Equal              | `!= 5.0.1`      | `≠`                 | ≠ 5.0.1              | All versions except 5.0.1 are allowed.                               |
+| Range (Combination)    | `>= 5.0, < 6.0` | `≥ , <`             | ≥ 5.0 AND < 6.0      | Allows versions between 5.0 (inclusive) and 6.0 (exclusive).         |
+| Pessimistic (`~> 5.0`) | `~> 5.0`        | Range Operator      | ≥ 5.0 AND < 6.0      | Allows all 5.x versions but blocks 6.x (safe major upgrade control). |
+| Pessimistic (`~> 5.2`) | `~> 5.2`        | Range Operator      | ≥ 5.2 AND < 5.3      | Allows only patch updates within 5.2 (e.g., 5.2.1, 5.2.5).           |
+
+
 ## Multi-Cloud Concept
 
 **Definition:**
